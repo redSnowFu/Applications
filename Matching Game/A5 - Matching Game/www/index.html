@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>A5MatchingGame</title>
+    </head>
+    <body>
+        <div class="app">
+            <div id="title"><h1>Matching Game</h1></div>
+            <div id="game">
+                <div class="cell" id="cell1"></div>
+                <div class="cell" id="cell2"></div>
+                <div class="cell" id="cell3"></div>
+                <div class="cell" id="cell4"></div>
+                <div class="cell" id="cell5"></div>
+                <div class="cell" id="cell6"></div>
+                <div class="cell" id="cell7"></div>
+                <div class="cell" id="cell8"></div>
+                <div class="cell" id="cell9"></div>
+                <div class="cell" id="cell10"></div>
+                <div class="cell" id="cell11"></div>
+                <div class="cell" id="cell12"></div>
+                <div class="cell" id="cell13"></div>
+                <div class="cell" id="cell14"></div>
+                <div class="cell" id="cell15"></div>
+                <div class="cell" id="cell16"></div>
+            </div>
+            <div id="button">
+                <button id="btnDevMode" class="btn">Developer Mode</button>
+                <button id="btnBack" class="btn">Back</button>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script type="text/javascript" src="scripts/ArrayShuffler.js"></script>
+    </body>
+</html>
