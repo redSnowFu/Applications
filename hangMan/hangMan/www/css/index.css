@@ -1,0 +1,252 @@
+
+.hide{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+/*.enabledLetters {
+    font: bold;
+    background-color: aqua;
+}*/
+
+.disabledMain {
+    padding: 10%;
+    width: 40%;
+    height: auto;
+    font-size: 100%;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    
+    text-align: center;
+    display: inline-block;
+
+    font: normal;
+    color: black;
+    background-color: lightslategray;
+}
+
+.btnArea{
+    clear:left;
+}
+
+.mainBtn {
+    padding: 10%;
+    width: 40%;
+    height: auto;
+    font-size: 100%;
+    background: teal;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.mainBtn:hover {
+    background-color: darkorange;
+    color: black;
+}
+
+#creatAccount{
+    width:100%;
+
+}
+
+.inputArea {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+
+.formLabel{
+    font:bold;
+}
+
+.categoryBtns {
+    width: 40%;
+    border-radius: 50%;
+    font: bold;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-size: 130%;
+    clear: left;
+}
+
+.categoryBtns:hover{
+    background-color: darkorange;
+    color: black;
+}
+
+.scoresTable {
+    width: 100%;
+    border-style: hidden;
+    background-color:lightgray;
+}
+
+td, th{
+    padding-bottom:2%;
+    padding-top:2%;
+}
+
+#scoreTitle {
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+}
+
+#currentPlayer {
+    background-color:yellow;
+}
+
+.enabledLetters{
+    font:bold;
+    background-color:aqua;
+}
+
+.disabledLetters{
+    font:normal;
+    background-color:lightslategray;
+}
+
+.categoryGaming {
+    width: 40%;
+    border-radius: 50%;
+    font: bold;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top:5%;
+    padding-bottom:3%;
+    padding-top:3%;
+    font-size:130%;
+    clear:left;
+}
+
+.categoryGaming:hover{
+    background-color: darkorange;
+    color: black;
+}
+
+#title {
+    background-color: yellow;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-family: fontawesome;
+}
+
+#Cname {
+    clear: left;
+    text-align: left;
+    float: left;
+    width: 28%;
+    background-color:orange;
+    padding-bottom:3%;
+    padding-top:3%;
+    padding-left:2%;
+    font:bold;
+    color:forestgreen;
+}
+
+#remaining {
+    text-align: right;
+    background-color: sandybrown;
+    width: 68%;
+    float: right;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right:2%;
+    font:bold;
+    color:blue;
+}
+
+#theWord {
+    clear: left;
+    text-align: center;
+    font-size: 200%;
+    font: bold;
+    color: crimson;
+    float: left;
+    width:100%;
+}
+
+#gibbet{
+    clear:left;
+}
+
+#GamingButton{
+    clear:left;
+    
+}
+
+#keyboard {
+    clear: left;
+}
+
+.btn {
+    width: 25%;
+    border-radius: 10%;
+    font: bold;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 3%;
+    margin-bottom:3%;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    color: black;
+}
+
+.cell {
+    width: 11%;
+    color: black;
+    border: none;
+    text-align: center;
+    font-size:130%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10%;
+}
+
+.cell:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.lettlers {
+    clear: left;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>hangMan</title>
+    </head>
+    <body>
+        <div class="app">
+            <div id="mainScreen">
+                <div id="create" class="btnArea"><button id="btnCreate" class="mainBtn">Create account</button></div>
+                <div id="display" class="btnArea"><button id="btnDisplay" class="mainBtn">Ranking display</button></div>
+                <div id="play" class="btnArea"><button id="btnPlay" class="mainBtn">Game play</button></div>
+            </div>
+
+            <div id="creatAccount">
+                <div class="inputArea">
+                    <div class="formLabel">User name: </div><input id="userName" type="text"  onfocus="this.value=''">
+                </div>
+                <div class="inputArea">
+                    <div class="formLabel">Password: </div><input id="password" type="text"  onfocus="this.value=''">
+                </div>
+                <div class="inputArea">
+                    <div class="formLabel">Confirm password: </div><input id="retypePw" type="text"  onfocus="this.value=''">
+                </div>
+                <div class="inputArea">
+                    <button id="btnAddUser" class="btn">Create</button>
+                </div>
+                <div  class="inputArea">
+                    <button id="btnBack1" class="btn">Back</button>
+                </div>
+            </div>
+
+            <div id="ranking">
+                <div id="categorySelection">
+
+                </div>
+                <div id="categoryDisplay">
+                    <button id="btnBack2" class="btn">Back</button>
+                    <table class="scoresTable" id="scoresTableId">
+                        
+                    </table>
+                </div>
+                
+            </div>
+
+            <div id="game">
+                <div id="gamingCategory">
+
+                </div>
+                <div id="GamingArea">
+                    <div id="title"><h1>HANGMAN</h1></div>
+
+                    <div id="Cname"></div><div id="remaining"></div>
+                    <div id="theWord">
+
+                    </div>
+
+                    <div id="gibbet">
+
+                    </div>
+
+                    <div id="GamingButton">
+                        <button id="btnNewGame" class="btn">New Game</button>
+                        <button id="btnBack3" class="btn">Back</button>
+                    </div>
+
+                    <div id="keyboard">
+                        <div class="lettlers" id="line1">
+                            <button class="cell" value="A">A</button>
+                            <button class="cell" value="B">B</button>
+                            <button class="cell" value="C">C</button>
+                            <button class="cell" value="D">D</button>
+                            <button class="cell" value="E">E</button>
+                            <button class="cell" value="F">F</button>
+                            <button class="cell" value="G">G</button>
+                            <button class="cell" value="H">H</button>
+                        </div>
+                        <div class="lettlers" id="line2">
+                            <button class="cell" value="I">I</button>
+                            <button class="cell" value="J">J</button>
+                            <button class="cell" value="K">K</button>
+                            <button class="cell" value="L">L</button>
+                            <button class="cell" value="M">M</button>
+                            <button class="cell" value="N">N</button>
+                            <button class="cell" value="O">O</button>
+                        </div>
+                        <div class="lettlers" id="line3">
+                            <button class="cell" value="P">P</button>
+                            <button class="cell" value="Q">Q</button>
+                            <button class="cell" value="R">R</button>
+                            <button class="cell" value="S">S</button>
+                            <button class="cell" value="T">T</button>
+                            <button class="cell" value="U">U</button>
+                        </div>
+                        <div class="lettlers" id="line4">
+                            <button class="cell" value="V">V</button>
+                            <button class="cell" value="W">W</button>
+                            <button class="cell" value="X">X</button>
+                            <button class="cell" value="Y">Y</button>
+                            <button class="cell" value="Z">Z</button>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+            <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+            <script type="text/javascript" src="scripts/index.js"></script>
+            <script type="text/javascript" src="scripts/GameController.js"></script>
+</body>
+</html>
